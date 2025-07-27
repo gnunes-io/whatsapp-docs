@@ -13,7 +13,7 @@ Minha mãe, psicóloga, precisava todos os dias:
 ## ✅ A Solução
 
 Criei uma automação completa com:
-- Um **formulário web** para os pacientes cadastrarem seus dados
+- Um **formulário web** para cadastro de pacientes
 - Um **sistema** que:
   - Puxa os dados do paciente do banco
   - Gera o PDF (conforme documento solicitado)
@@ -23,13 +23,13 @@ Criei uma automação completa com:
 ### 🧩 Ferramentas e Fluxo de Execução
 As ferramentas foram escolhidas com intuito de uma criação rápida e segura de um sistema funcional.
 - Servidor próprio (ambiente docker swarm)
-- N8n
-- Typebot
-- Google Docs
-- Google Sheets
-- Fillout Forms (fillout.com)
-- Evolution API
-- API invertexto.com
+- N8n (orquestrador low-code)
+- Typebot (interface do sistema)
+- Google Docs (para gerar pdf)
+- Google Sheets (como banco de dados)
+- Fillout Forms (para criação de formulários elegantes)
+- Evolution API (para receber demanda e responder com pdf no whatsapp)
+- API invertexto.com (para consulta CEP e número por extenso)
   
 ---
 
